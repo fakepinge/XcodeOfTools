@@ -2,25 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>-initdata</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - 初始化默认数据
-- (void)initDefaultData {
-    
-}</string>
+	<string>#ifdef DEBUG
+#define kDLOG(FORMAT, ...) fprintf(stderr,"%s: %d\t  %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
+#define NSLog(...)  NSLog(__VA_ARGS__)
+#else
+#define kDLOG(...)
+#define NSLog(...)
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E232A63E-057D-49C3-A812-157B75828C80</string>
+	<string>0C782DD4-781F-44FC-8A9E-932DAA8D70B2</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>初始化默认数据方法</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化默认数据方法</string>
+	<string>打印</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>-initdata</string>
+	<string>initLabel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - 初始化默认数据
-- (void)initDefaultData {
-    
-}</string>
+	<string>label = [[UILabel alloc] init];
+label.text = @"&lt;#title#&gt;";
+label.textColor = RGBCOLOR(&lt;#R#&gt;, &lt;#G#&gt;, &lt;#B#&gt;);
+label.font = [UIFont systemFontOfSize:kFontScaleSize(&lt;#15#&gt;)];
+[&lt;#self.contentView#&gt; addSubview:label];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E232A63E-057D-49C3-A812-157B75828C80</string>
+	<string>83E0D474-CFAC-4627-9561-4B6C3014F030</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>初始化默认数据方法</string>
+	<string>初始化Label(RGB)</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化默认数据方法</string>
+	<string>初始化Label</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

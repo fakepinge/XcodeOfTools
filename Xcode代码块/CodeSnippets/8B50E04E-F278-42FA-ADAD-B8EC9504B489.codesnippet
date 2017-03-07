@@ -3,24 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>-initdata</string>
+	<string>registerNoti</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - 初始化默认数据
-- (void)initDefaultData {
-    
+	<string>#pragma mark - 注册通知
+- (void)registerNotification {
+    // &lt;#注释#&gt;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#method#&gt;) name:&lt;#name#&gt; object:nil];
+}
+
+#pragma mark - 注销通知
+- (void)cancelNotification {
+    // &lt;#注释#&gt;
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:&lt;#name#&gt; object:nil];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E232A63E-057D-49C3-A812-157B75828C80</string>
+	<string>8B50E04E-F278-42FA-ADAD-B8EC9504B489</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>初始化默认数据方法</string>
+	<string>注册和注销通知</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化默认数据方法</string>
+	<string>注册和注销通知</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

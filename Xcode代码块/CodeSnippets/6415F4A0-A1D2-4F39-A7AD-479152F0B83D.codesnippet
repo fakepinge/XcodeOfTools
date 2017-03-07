@@ -2,25 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>-initdata</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - 初始化默认数据
-- (void)initDefaultData {
-    
-}</string>
+	<string>&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
+&lt;dict&gt;
+&lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;
+&lt;true/&gt;
+&lt;/dict&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E232A63E-057D-49C3-A812-157B75828C80</string>
+	<string>6415F4A0-A1D2-4F39-A7AD-479152F0B83D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>初始化默认数据方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化默认数据方法</string>
+	<string>网络请求info</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

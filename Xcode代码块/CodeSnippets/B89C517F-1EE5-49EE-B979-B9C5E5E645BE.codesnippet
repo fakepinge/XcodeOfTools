@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>-initdata</string>
+	<string>warning</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - 初始化默认数据
-- (void)initDefaultData {
-    
-}</string>
+	<string>#warning 警告 测试 &lt;#注释#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E232A63E-057D-49C3-A812-157B75828C80</string>
+	<string>B89C517F-1EE5-49EE-B979-B9C5E5E645BE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>初始化默认数据方法</string>
+	<string>测试的警告注释</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化默认数据方法</string>
+	<string>测试的警告注释</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

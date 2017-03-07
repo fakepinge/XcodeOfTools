@@ -3,34 +3,39 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>-initstyle</string>
+	<string>-initcell</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-    
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        
         self.backgroundColor= [UIColor whiteColor];
         self.selectionStyle = UITableViewCellSelectionStyleNone;
-        [self setupViews];
-        [self setupViewConstraints];
+        // 初始化默认数据
+        [self createDefaultData];
+        // 初始化界面
+        [self createUI];
+        // 布局界面
+        [self createConstraints];
     }
     return self;
 }
 
-#pragma mark - 初始化子控件
-- (void) setupViews {
-    
+#pragma mark - 初始化默认数据
+- (void)createDefaultData {
     
 }
 
-#pragma mark - 布局子控件
-- (void) setupViewConstraints {
+#pragma mark - 初始化界面
+- (void)createUI {
     
+}
+
+#pragma mark - 布局界面
+- (void)createConstraints {
     __weak typeof(self) weakSelf = self;
     
 }</string>

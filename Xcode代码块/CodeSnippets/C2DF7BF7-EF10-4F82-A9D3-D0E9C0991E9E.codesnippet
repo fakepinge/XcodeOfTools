@@ -3,24 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>-initdata</string>
+	<string>timer</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - 初始化默认数据
-- (void)initDefaultData {
-    
-}</string>
+	<string>// 创建定时器
+self.&lt;#var#&gt; = [NSTimer scheduledTimerWithTimeInterval:1.5
+                                                            target:self
+                                              selector:@selector(&lt;#timerMethod#&gt;)
+                                                          userInfo:nil
+                                                           repeats:YES];
+// 取消
+[self.&lt;#var#&gt; invalidate];
+
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E232A63E-057D-49C3-A812-157B75828C80</string>
+	<string>C2DF7BF7-EF10-4F82-A9D3-D0E9C0991E9E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>初始化默认数据方法</string>
+	<string>timer</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化默认数据方法</string>
+	<string>定时器</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

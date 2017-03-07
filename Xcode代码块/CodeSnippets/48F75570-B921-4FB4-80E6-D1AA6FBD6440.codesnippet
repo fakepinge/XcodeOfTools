@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pmark</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark ----------------------------- 生命周期 ------------------------------
+
+#pragma mark ----------------------------- 其他方法 ------------------------------
+
+#pragma mark ----------------------------- 网络请求 ------------------------------
+
+#pragma mark ----------------------------- 代理方法 ------------------------------
+
+#pragma mark --------------------------- setter&amp;getter -------------------------</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>48F75570-B921-4FB4-80E6-D1AA6FBD6440</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>OC Mark控制器代码结构</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>OC Mark控制器代码结构</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
