@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>-initstyle</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        
+        self.backgroundColor= [UIColor whiteColor];
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+        [self setupViews];
+        [self setupViewConstraints];
+    }
+    return self;
+}
+
+#pragma mark - 初始化子控件
+- (void) setupViews {
+    
+    
+}
+
+#pragma mark - 布局子控件
+- (void) setupViewConstraints {
+    
+    __weak typeof(self) weakSelf = self;
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E6F4DE6A-0997-4E4D-9238-219496D35611</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>重写cell初始化方法(cell定制)</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>重写cell初始化方法(cell定制)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
